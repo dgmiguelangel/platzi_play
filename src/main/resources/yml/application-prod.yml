@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+#Spring Data JPA
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-d5mk43mr433s738890qg-a.oregon-postgres.render.com:5432/platzi_play_db_5jfd
+    username: admin
+    password: FEv84Wjd8Y7se4hVajl4sAfjmt57MeD9
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+  sql:
+    init:
+      mode: always
+
+langchain4j:
+  open-ai:
+    chat-model:
+      api-key: demo

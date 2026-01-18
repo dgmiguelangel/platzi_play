@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: Platzi-Play
+  datasource:
+    driver-class-name: org.postgresql.Driver
+
+server:
+  servlet:
+    contextPath: /platzi-play/api
+  
+langchain4j:
+  openai:
+    chatmodel:
+      model-name: gpt-4o-mini
